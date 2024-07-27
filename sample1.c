@@ -1,4 +1,3 @@
-/*********EXTRACT PASSWORD STRING FROM EXECUTABLE**********/
 #include <stdio.h>
 #include <string.h>
 #include <unistd.h>
@@ -8,7 +7,7 @@ int main() {
     printf("Please Enter the correct password: ");
     fgets(inputString, sizeof(inputString), stdin); 
 
-    inputString[strcspn(inputString, "\n")] = '\0'; //rem newline character
+    inputString[strcspn(inputString, "\n")] = '\0';
 
     if(strcmp(inputString, "pas123") == 0) {
         printf("You are successfully logged in");
