@@ -1,4 +1,3 @@
-;-----------------------x86-64-------------------------
 .LC0:
         .string "Please Enter the correct password: "
 .LC1:
