@@ -23,7 +23,6 @@ qemu-system-i386 boot
 This will launch a QEMU virtual machine and display the message **"Hello, World!"** on the screen.
 
 ## Screenshots
-Attach your screenshot here:
 
 ![Bootloader Screenshot](screenshot.png)
 
